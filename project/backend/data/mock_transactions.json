@@ -1,0 +1,166 @@
+{
+  "user_profiles": [
+    {
+      "user_id": "user_001",
+      "name": "Rahul Sharma",
+      "account_age_days": 1240,
+      "transaction_frequency": "daily",
+      "typical_amount_range": {
+        "min": 50,
+        "max": 2000
+      },
+      "frequent_payees": [
+        "payee_001",
+        "payee_002",
+        "payee_003",
+        "rahul@hdfc",
+        "rahul@upi",
+        "priya@okhdfc",
+        "amit@yesbank",
+        "sneha@icici",
+        "rohit@axis",
+        "Rahul Sharma",
+        "Priya Patel",
+        "Amit Verma",
+        "Sneha Gupta",
+        "Rohit Singh"
+      ],
+      "preferred_times": [
+        "07:00-23:00"
+      ],
+      "typical_merchant_categories": [
+        "retail",
+        "food",
+        "utilities",
+        "groceries"
+      ]
+    },
+    {
+      "user_id": "user_002",
+      "name": "Priya Patel",
+      "account_age_days": 860,
+      "transaction_frequency": "weekly",
+      "typical_amount_range": {
+        "min": 100,
+        "max": 3000
+      },
+      "frequent_payees": [
+        "payee_004",
+        "payee_005",
+        "rahul@hdfc"
+      ],
+      "preferred_times": [
+        "10:00-20:00"
+      ],
+      "typical_merchant_categories": [
+        "grocery",
+        "fuel"
+      ]
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN1789193444",
+      "user_id": "user_001",
+      "payee_id": "vendor_unknown@paytm",
+      "recipient": "Vendor Store",
+      "amount": 12000.0,
+      "currency": "INR",
+      "timestamp": "2026-09-12T06:10:44.046459+00:00",
+      "channel": "UPI",
+      "status": "SUCCESS",
+      "purpose": "Equipment purchase"
+    },
+    {
+      "id": "TXN1789179963",
+      "user_id": "user_001",
+      "payee_id": "vendor_unknown@paytm",
+      "recipient": "Vendor Store",
+      "amount": 12000.0,
+      "currency": "INR",
+      "timestamp": "2026-09-12T02:26:03.396877+00:00",
+      "channel": "UPI",
+      "status": "SUCCESS",
+      "purpose": "Equipment purchase"
+    },
+    {
+      "id": "TXN1789179873",
+      "user_id": "user_001",
+      "payee_id": "vendor_unknown@paytm",
+      "recipient": "Vendor Store",
+      "amount": 12000.0,
+      "currency": "INR",
+      "timestamp": "2026-09-12T02:24:33.032798+00:00",
+      "channel": "UPI",
+      "status": "SUCCESS",
+      "purpose": "Equipment purchase"
+    },
+    {
+      "id": "TXN1789179831",
+      "user_id": "user_001",
+      "payee_id": "vendor_unknown@paytm",
+      "recipient": "Vendor Store",
+      "amount": 12000.0,
+      "currency": "INR",
+      "timestamp": "2026-09-12T02:23:51.923915+00:00",
+      "channel": "UPI",
+      "status": "SUCCESS",
+      "purpose": "Equipment purchase"
+    },
+    {
+      "id": "txn_001",
+      "user_id": "user_001",
+      "payee_id": "rahul@hdfc",
+      "recipient": "Rahul Sharma",
+      "amount": 500.0,
+      "currency": "INR",
+      "timestamp": "2026-09-10T10:30:00Z",
+      "channel": "UPI",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn_002",
+      "user_id": "user_001",
+      "payee_id": "priya@okhdfc",
+      "recipient": "Priya Patel",
+      "amount": 1200.0,
+      "currency": "INR",
+      "timestamp": "2026-09-09T14:15:00Z",
+      "channel": "UPI",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn_003",
+      "user_id": "user_001",
+      "payee_id": "amit@yesbank",
+      "recipient": "Amit Verma",
+      "amount": 250.0,
+      "currency": "INR",
+      "timestamp": "2026-09-08T09:45:00Z",
+      "channel": "UPI",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn_004",
+      "user_id": "user_001",
+      "payee_id": "sneha@icici",
+      "recipient": "Sneha Gupta",
+      "amount": 800.0,
+      "currency": "INR",
+      "timestamp": "2026-09-07T11:20:00Z",
+      "channel": "UPI",
+      "status": "SUCCESS"
+    },
+    {
+      "id": "txn_005",
+      "user_id": "user_001",
+      "payee_id": "rohit@axis",
+      "recipient": "Rohit Singh",
+      "amount": 1500.0,
+      "currency": "INR",
+      "timestamp": "2026-09-06T19:30:00Z",
+      "channel": "UPI",
+      "status": "SUCCESS"
+    }
+  ]
+}

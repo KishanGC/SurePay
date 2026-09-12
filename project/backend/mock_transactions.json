@@ -1,0 +1,30 @@
+{
+  "sample_user_id": "user_001",
+  "description": "Sample transaction data for Paytm SurePay demo",
+  "transactions": [
+    {
+      "id": "txn_sample_1",
+      "user_id": "user_001",
+      "amount": 250.00,
+      "currency": "INR",
+      "status": "SUCCESS",
+      "timestamp": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "txn_sample_2",
+      "user_id": "user_001",
+      "amount": 1200.00,
+      "currency": "INR",
+      "status": "SUCCESS",
+      "timestamp": "2024-01-20T14:15:00Z"
+    },
+    {
+      "id": "txn_sample_3",
+      "user_id": "user_001",
+      "amount": 75.50,
+      "currency": "INR",
+      "status": "SUCCESS",
+      "timestamp": "2024-01-25T09:45:00Z"
+    }
+  ]
+}
